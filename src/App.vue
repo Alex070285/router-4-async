@@ -6,6 +6,7 @@
 
   <router-view/>
 
+  Query: 
   <pre>{{ $route.query }}</pre>
 </template>
 
