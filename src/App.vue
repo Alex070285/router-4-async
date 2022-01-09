@@ -3,8 +3,20 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
+
   <router-view/>
+
+  <pre>{{ $route.query }}</pre>
 </template>
+
+<script>
+export default {
+  data: () => ({}),
+  created () {
+    console.log(this.$route.query)
+  }
+}
+</script>
 
 <style>
 #app {
