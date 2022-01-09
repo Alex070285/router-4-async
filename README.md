@@ -1,4 +1,4 @@
-# router-params
+# Handling of route params in Vue Router 4
 
 ## Project setup
 ```
